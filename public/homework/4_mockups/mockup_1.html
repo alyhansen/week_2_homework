@@ -24,14 +24,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <p class="lead">
-          This document is already set up for you with links to all of the Bootstrap assets. Replace this content with your own mockup of an important screen in your app idea; it could be a landing page, or a homepage, or a sign-up form, or anything you like.
-        </p>
-      </div>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">logo</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><button type="button" class="btn btn-default navbar-btn">Sign in</button></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+
+      <h1 class="text-center">bulletin</h1>
+
+      <h4 class="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore aliquyam erat.</h4>
+
+      <form>
+        <div class="form-group">
+          <label class="sr-only" for="inputemail">Email</label>
+          <input type="email" class="form-control" id="inputemail" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputpassword">Password</label>
+          <input type="password" class="form-control" id="inputpassword" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+      </form>
+
     </div>
   </div>
+</div>
+
 </body>
 </html>
